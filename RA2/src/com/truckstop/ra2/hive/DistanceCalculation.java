@@ -21,6 +21,7 @@ public class DistanceCalculation extends UDAF {
 	  
 	static final double NULL_VALUE = -9999.0;
 	
+	
     
     private Double result;
     private String outLat;
@@ -38,6 +39,7 @@ public class DistanceCalculation extends UDAF {
     }
 
     public boolean iterate(String latLon) {
+    	System.out.println("Change in branch");
     	
     	StringTokenizer token = new StringTokenizer(latLon,"$");
     	int i = 0;
