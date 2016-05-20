@@ -42,6 +42,7 @@ public class DistanceCalculation extends UDAF {
     	//System.out.println("Change in branch");
     	System.out.println("Change in Dev Branch");
     	System.out.println("Change in QA Branch");
+    	System.out.println("Merging Concept:::");
     	
     	StringTokenizer token = new StringTokenizer(latLon,"$");
     	int i = 0;
