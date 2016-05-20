@@ -39,7 +39,8 @@ public class DistanceCalculation extends UDAF {
     }
 
     public boolean iterate(String latLon) {
-    	System.out.println("Change in branch");
+    	//System.out.println("Change in branch");
+    	System.out.println("Change in Dev Branch");
     	
     	StringTokenizer token = new StringTokenizer(latLon,"$");
     	int i = 0;
